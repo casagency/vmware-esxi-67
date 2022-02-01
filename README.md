@@ -29,3 +29,11 @@
 
 Installation de la compatibitée MacOS
 --------------------------------------
+	cp unlocker.zip /vmfs/volumes/datastore1/MAJ/unlocker.zip
+	cd /vmfs/volumes/datastore1/MAJ/
+	unzip unlocker.zip
+	cd unlocker
+	chmod +x ./esxi-install.sh 
+	(si necessaire, moi je n'ai pas eu a le faire en etant connecter directement en root en ssh)
+	./esxi-install.sh
+	reboot
