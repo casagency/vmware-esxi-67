@@ -1,9 +1,22 @@
 # == Mis en place et patch de sécuritée vmware ==
 #### Commencer par télécherger tout ces fichiers et mettez les dans un de vos datastores
 
-    wget https://casagency.fr/VIB/ESXi670-202103001.zip
-    wget https://casagency.fr/VIB/ESXi670-202201001.zip
+    (version 202103001)
+    https://mega.nz/file/erJHiIgD#KuZnnRuCdogyXcbM2jE-zuDaeo9QiJ22eHtuLsJQ27I
+
+    (version 202201001)
+    https://mega.nz/file/erJHiIgD#KuZnnRuCdogyXcbM2jE-zuDaeo9QiJ22eHtuLsJQ27I
+
+    ( Pour permettre l'installation de MacOS)
     wget https://github.com/casagency/vmware-esxi-67/blob/main/unlocker.zip
+
+    (lecharger macos)
+    https://store4.gofile.io/download/6f235bcc-9bf0-4921-971b-4a7a0cd0f5cc/macOS%20Monterey.iso
+    
+    ou
+    --
+    
+    https://depannageinformatique.org/telecharger-iso-dmg-macos/
 
 
 ### CVE-2018-3646 correction faille L1 Terminal evasion code
