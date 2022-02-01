@@ -1,5 +1,5 @@
-# == Mis en place et patch de sécuritée vmware ==
-#### Commencer par télécherger tout ces fichiers et mettez les dans un de vos datastores
+# == Mis en place et Patch de sécurité Vmware ==
+#### Commencer par télécharger tous ces fichiers et mettez-les dans un de vos datstores
 
     (version 202103001)
     https://mega.nz/file/erJHiIgD#KuZnnRuCdogyXcbM2jE-zuDaeo9QiJ22eHtuLsJQ27I
@@ -19,15 +19,15 @@
     https://depannageinformatique.org/telecharger-iso-dmg-macos/
 
 
-### CVE-2018-3646 correction faille L1 Terminal evasion code
+### CVE-2018-3646 correction faut L1 Terminale évasion code
 ---------------------------------------------
     esxcli system settings kernel set -s hyperthreadingMitigation -v TRUE
     esxcli system settings kernel set -s hyperthreadingMitigationIntraVM -v FALSE
 
 
-### Installation patch de mise à jour vmware 6.7
+### Installation patch de mise à jour Vmware 6.7
 ----------------------------------------------
-#### (créer un dossier nomée MAJ dans un de vos datastore et placer les fichier zip des patch dedand)
+#### (créer un dossier nommé MAJ dans un de vos data store et placer les fichiers zip des patchs dedans)
 
     esxcli system maintenanceMode set --enable true
     esxcli software vib install -d /vmfs/volumes/datastore1/MAJ/ESXi670-202103001.zip
@@ -40,14 +40,14 @@
     reboot
 
 
-### Installation de la compatibitée MacOS
+### Installation de la compatibilité Mac Os
 --------------------------------------
 	cp unlocker.zip /vmfs/volumes/datastore1/MAJ/unlocker.zip
 	cd /vmfs/volumes/datastore1/MAJ/
 	unzip unlocker.zip
 	cd unlocker
 	chmod +x ./esxi-install.sh 
-	(si necessaire, moi je n'ai pas eu a le faire en etant connecter directement en root en ssh)
+	(si nécessaire, moi je n'ai pas eu à le faire en étant connecté directement en root en ssh, et parce qu'il les droits sont logiquement directement mis)
 	./esxi-install.sh
 	reboot
 
