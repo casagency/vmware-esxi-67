@@ -4,7 +4,7 @@
     wget https://casagency.fr/VIB/ESXi670-202103001.zip
     wget https://casagency.fr/VIB/ESXi670-202201001.zip
     wget https://github.com/casagency/vmware-esxi-67/blob/main/unlocker.zip
- 
+
 
 ### CVE-2018-3646 correction faille L1 Terminal evasion code
 ---------------------------------------------
@@ -27,7 +27,7 @@
     reboot
 
 
-Installation de la compatibitée MacOS
+### Installation de la compatibitée MacOS
 --------------------------------------
 	cp unlocker.zip /vmfs/volumes/datastore1/MAJ/unlocker.zip
 	cd /vmfs/volumes/datastore1/MAJ/
@@ -37,3 +37,9 @@ Installation de la compatibitée MacOS
 	(si necessaire, moi je n'ai pas eu a le faire en etant connecter directement en root en ssh)
 	./esxi-install.sh
 	reboot
+
+
+### Installation MacOX
+-----------------------
+	Consulté cette page :
+	https://casagency.fr/VIB/MacOS12MontereyESXi.html
