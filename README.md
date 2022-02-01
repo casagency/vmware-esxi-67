@@ -1,6 +1,6 @@
 ## == Mis en place et Patch de sécurité Vmware ESXi 6.7 Professionnel Plus ==
 ## Préambule projet :
-Bonjour à tous, après pas mal de test sur Vmware ES Xi 6.7 et 7.0 j'ai pu voir quelques anomalies mais dans l'ensemble il s'agit d'un très bon hyperviseur quand ton effectue quelque prérogative, notamment sur la version 6.7 qui a une faille de sécurité critique pouvant amener à un contrôle sur l'hyperviseur, précisément sur le L1 TF (L1 terminal Fault). Affectent les microprocesseurs Intel. j'ai donc de ce pas corrigé cette faille et vous explique la procédure, je vous donne toutes les sources qui m'ont permis de configurée mon Vmware ES Xi 6.7 patché avec la possibilité de créer des VM Mac OS
+Bonjour à tous, après pas mal de test sur Vmware ES Xi 6.7 et 7.0 j'ai pu voir quelques anomalies mais dans l'ensemble il s'agit d'un très bon hyperviseur quand ton effectue quelque prérogative, notamment sur la version 6.7 qui a une faille de sécurité critique pouvant amener à un contrôle sur l'hyperviseur, précisément sur le L1 TF (L1 terminal Fault). Affectent les microprocesseurs Intel. j'ai donc de ce pas corrigé cette faille et vous explique la procédure, je vous donne toutes les sources qui m'ont permis de configurée mon Vmware ES Xi 6.7 patché avec la possibilité de créer des VM Mac OS.
 
 #### Commencer par télécharger tous ces fichiers et mettez-les dans un de vos datstores
 
