@@ -1,10 +1,10 @@
 # == Mis en place et patch de sécuritée vmware ==
 #### Commencer par télécherger tout ces fichiers et mettez les dans un de vos datastores
 
-    wget 55
-    wget 55
-    wget 55
-    wget 55
+    wget https://casagency.fr/VIB/ESXi670-202103001.zip
+    wget https://casagency.fr/VIB/ESXi670-202201001.zip
+    wget https://github.com/casagency/vmware-esxi-67/blob/main/unlocker.zip
+ 
 
 ### CVE-2018-3646 correction faille L1 Terminal evasion code
 ---------------------------------------------
