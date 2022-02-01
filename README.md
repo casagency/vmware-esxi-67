@@ -1,4 +1,4 @@
-# == Mis en place et Patch de sécurité Vmware ==
+# == Mis en place et Patch de sécurité Vmware ESXi 6.7 Professionnel Plus ==
 #### Commencer par télécharger tous ces fichiers et mettez-les dans un de vos datstores
 
     (version 202103001)
